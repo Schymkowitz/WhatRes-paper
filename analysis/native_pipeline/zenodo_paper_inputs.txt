@@ -1,0 +1,35 @@
+# Inputs of analysis/native_pipeline/regenerate_all.sh, from a traced replay on 2026-11-06 that reproduced
+# all 253 numbers of numbers.tsv (max relative difference 1.5e-7), plus reads made by gemmi/PyMuPDF and the
+# structure lists for rebuild_all.sh. Paths are relative to HighResPDB; manuscript/ = the manuscript folder.
+# 2026-11-06 update: + geometry tables (Supp Fig 3, Table S2); - Tables S2/S3 and the old Supp Fig 3 (now generated)
+analysis/Options_features_native.txt
+analysis/ai_feature_matrix.tsv
+analysis/dms_hero/val_feature_matrix.tsv
+analysis/dms_hero/val_ids.tsv
+analysis/dms_hero/val_list.txt
+analysis/dms_hero/val_resolution.tsv
+analysis/era_before_after_1995/era_fm.tsv
+analysis/era_before_after_1995/era_years.tsv
+analysis/exact_resolution.tsv
+analysis/feature_matrix.tsv
+analysis/molprobity_baseline/molprobity_train_genuine.tsv
+analysis/native_pipeline/data/bench_quality_report.tsv.gz
+analysis/native_pipeline/data/co_bondlength.tsv
+analysis/native_pipeline/data/size_reliability_residues.tsv
+analysis/over_regularisation_geometry/Fig_overregularisation_geometry.pdf
+analysis/over_regularisation_geometry/Fig_overregularisation_geometry.png
+analysis/over_regularisation_geometry/cohort_mean_offset.tsv
+analysis/over_regularisation_geometry/cohort_within_type_SD.tsv
+analysis/over_regularisation_geometry/geom_residues.tsv.gz
+analysis/over_regularisation_geometry/geom_structures.tsv
+analysis/refbuild/ai_all_list.txt
+analysis/refbuild/ai_list.txt
+analysis/refbuild/benchmark_existing.txt
+analysis/refbuild/native49_structure_survey_summary.txt
+analysis/refbuild/ref_list_2000.txt
+analysis/seq_clusters/mmseqs_clusters_id30_cov80.tsv
+benchmark/ai/af3_7dg7.pdb
+benchmark/benchmark_manifest.tsv
+manuscript/Figure 1.pdf
+manuscript/Figures/Figure4/Fig4g_7dg7_overlay.png
+pdbs/7dg7.pdb

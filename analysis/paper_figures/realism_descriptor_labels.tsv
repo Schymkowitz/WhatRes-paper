@@ -1,0 +1,73 @@
+feature	family	reference
+qc_bond_C_O_sd_pctile	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_C_O_mean_score	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_C_O_frac_extreme	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_CA_C_sd_pctile	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_CA_C_mean_score	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_CA_C_frac_extreme	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_CA_CB_sd_pctile	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_CA_CB_mean_score	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_CA_CB_frac_extreme	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_C_N_sd_pctile	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_C_N_mean_score	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_C_N_frac_extreme	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_N_CA_sd_pctile	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_N_CA_mean_score	Covalent geometry: bond length	Engh & Huber 1991
+qc_bond_N_CA_frac_extreme	Covalent geometry: bond length	Engh & Huber 1991
+qc_angle_CA_C_N_sd_pctile	Covalent geometry: bond angle	Engh & Huber 1991
+qc_angle_CA_C_N_mean_score	Covalent geometry: bond angle	Engh & Huber 1991
+qc_angle_CA_C_N_frac_extreme	Covalent geometry: bond angle	Engh & Huber 1991
+qc_angle_C_N_CA_sd_pctile	Covalent geometry: bond angle	Engh & Huber 1991
+qc_angle_C_N_CA_mean_score	Covalent geometry: bond angle	Engh & Huber 1991
+qc_angle_C_N_CA_frac_extreme	Covalent geometry: bond angle	Engh & Huber 1991
+qc_angle_N_CA_C_sd_pctile	Covalent geometry: bond angle	Engh & Huber 1991
+qc_angle_N_CA_C_mean_score	Covalent geometry: bond angle	Engh & Huber 1991
+qc_angle_N_CA_C_frac_extreme	Covalent geometry: bond angle	Engh & Huber 1991
+qc_phi_sd_pctile	Backbone dihedral	Ramachandran 1963
+qc_phi_mean_score	Backbone dihedral	Ramachandran 1963
+qc_phi_frac_extreme	Backbone dihedral	Ramachandran 1963
+qc_psi_sd_pctile	Backbone dihedral	Ramachandran 1963
+qc_psi_mean_score	Backbone dihedral	Ramachandran 1963
+qc_psi_frac_extreme	Backbone dihedral	Ramachandran 1963
+qc_omega_sd_pctile	Backbone dihedral	peptide-bond geometry
+qc_omega_mean_score	Backbone dihedral	peptide-bond geometry
+qc_omega_frac_extreme	Backbone dihedral	peptide-bond geometry
+qc_chi1_sd_pctile	Side-chain dihedral	side-chain rotamers
+qc_chi1_mean_score	Side-chain dihedral	side-chain rotamers
+qc_chi1_frac_extreme	Side-chain dihedral	side-chain rotamers
+qc_chi2_sd_pctile	Side-chain dihedral	side-chain rotamers
+qc_chi2_mean_score	Side-chain dihedral	side-chain rotamers
+qc_chi2_frac_extreme	Side-chain dihedral	side-chain rotamers
+qc_chi3_sd_pctile	Side-chain dihedral	side-chain rotamers
+qc_chi3_mean_score	Side-chain dihedral	side-chain rotamers
+qc_chi3_frac_extreme	Side-chain dihedral	side-chain rotamers
+qc_chi4_sd_pctile	Side-chain dihedral	side-chain rotamers
+qc_chi4_mean_score	Side-chain dihedral	side-chain rotamers
+qc_chi4_frac_extreme	Side-chain dihedral	side-chain rotamers
+qc_rotamer_outlier_sd_pctile	Side-chain dihedral	this work (cf. Dunbrack)
+qc_rotamer_outlier_mean_score	Side-chain dihedral	this work (cf. Dunbrack)
+qc_rotamer_outlier_frac_extreme	Side-chain dihedral	this work (cf. Dunbrack)
+qc_ca_chirality_sd_pctile	Chirality & planarity	Cα chirality
+qc_ca_chirality_mean_score	Chirality & planarity	Cα chirality
+qc_ca_chirality_frac_extreme	Chirality & planarity	Cα chirality
+qc_cb_deviation_sd_pctile	Chirality & planarity	Lovell et al. 2003
+qc_cb_deviation_mean_score	Chirality & planarity	Lovell et al. 2003
+qc_cb_deviation_frac_extreme	Chirality & planarity	Lovell et al. 2003
+qc_peptide_planarity_sd_pctile	Chirality & planarity	peptide planarity
+qc_peptide_planarity_mean_score	Chirality & planarity	peptide planarity
+qc_peptide_planarity_frac_extreme	Chirality & planarity	peptide planarity
+qc_cablam_ca_virtual_sd_pctile	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_ca_virtual_mean_score	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_ca_virtual_frac_extreme	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_mu_in_sd_pctile	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_mu_in_mean_score	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_mu_in_frac_extreme	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_mu_out_sd_pctile	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_mu_out_mean_score	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_mu_out_frac_extreme	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_nu_sd_pctile	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_nu_mean_score	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_cablam_nu_frac_extreme	Backbone conformation (CaBLAM)	Prisant et al. 2020
+qc_clashscore_sd_pctile	Clashes & packing	Word 1999; Chen 2010
+qc_clashscore_mean_score	Clashes & packing	Word 1999; Chen 2010
+qc_clashscore_frac_extreme	Clashes & packing	Word 1999; Chen 2010

@@ -1,0 +1,121 @@
+target_id	uniprot	seq_len	seq_sha1	has_expt	expt_pdb	expt_method	expt_resolution	expt_release_date	resolution_tag	temporal_tier	self_in_training	best_homolog_id	homology_tier
+5s9o	P25440	144	0f192a43dde3	1	5S9O	X-RAY DIFFRACTION	2.49	2021-09-29	mid	seen_all	1	0.92	close_homolog
+5s9p	O60885	128	59c2ca1c0841	1	5S9P	X-RAY DIFFRACTION	2.1	2021-09-29	mid	seen_all	1	0.0	orphan
+7awg	P06276	529	b342f4c1f425	1	7AWG	X-RAY DIFFRACTION	2.0	2021-09-29	high	seen_all	1	0.0	orphan
+7ba4	A0A509J8D5	400	cb70fe1a57fb	1	7BA4	X-RAY DIFFRACTION	2.0	2021-09-29	high	seen_all	1	0.665	close_homolog
+7bmk	O75460	434	0b71c24b9d10	1	7BMK	X-RAY DIFFRACTION	1.85	2021-09-29	high	seen_all	1	0.934	close_homolog
+7d4v	Q973C7	156	124dc0564513	1	7D4V	X-RAY DIFFRACTION	1.78	2021-09-29	high	seen_all	1	0.666	close_homolog
+7d5m	C1DLC3	397	3f394429dbd4	1	7D5M	X-RAY DIFFRACTION	1.75	2021-09-29	high	seen_all	1	0.81	close_homolog
+7d5n	C1DLC3	401	0af79054efa1	1	7D5N	X-RAY DIFFRACTION	1.8	2021-09-29	high	seen_all	1	0.802	close_homolog
+7d64	P0DTD1	306	f6ed532570d3	1	7D64	X-RAY DIFFRACTION	2.45011599532	2021-09-29	mid	seen_all	1	0.0	orphan
+7dbf	Q94BU8	161	5690053de76e	1	7DBF	X-RAY DIFFRACTION	1.9	2021-09-29	high	seen_all	1	0.526	close_homolog
+7dbo	O05209	93	6a95a628f4af	1	7DBO	X-RAY DIFFRACTION	1.9	2021-09-29	high	seen_all	1	0.55	close_homolog
+7dc9	Q94BU8	161	699d88d0e465	1	7DC9	X-RAY DIFFRACTION	1.7	2021-09-29	high	seen_all	1	0.976	close_homolog
+7dg7	Q8TY20	92	18ebaca5f42c	1	7DG7	X-RAY DIFFRACTION	1.604	2021-09-29	high	seen_all	1	0.673	close_homolog
+7dg9	Q9YC86	93	c6bff5d1cdc3	1	7DG9	X-RAY DIFFRACTION	1.602	2021-09-29	high	seen_all	1	0.755	close_homolog
+7di0		93	33197bcf31c0	1	7DI0	X-RAY DIFFRACTION	1.6	2021-09-29	high	seen_all	1	0.918	close_homolog
+7di1		92	568622feab8a	1	7DI1	X-RAY DIFFRACTION	2.097	2021-09-29	mid	seen_all	1	0.934	close_homolog
+7dl0	B0VJ11	358	564abfc2ae6e	1	7DL0	X-RAY DIFFRACTION	2.17	2021-09-29	mid	seen_all	1	0.382	remote_homolog
+7dl3	B0VJ11	358	0e0e53024527	1	7DL3	X-RAY DIFFRACTION	1.84606931637	2021-09-29	high	seen_all	1	0.382	remote_homolog
+7dlw	Q9STR4	447	fdbf8a998f29	1	7DLW	X-RAY DIFFRACTION	2.19	2021-09-29	mid	seen_all	1	0.601	close_homolog
+7dqz	P0C6X7	306	e8b6d10bf8c8	1	7DQZ	X-RAY DIFFRACTION	1.99	2021-09-29	high	seen_all	1	0.0	orphan
+7du6		91	7648836421e1	1	7DU6	X-RAY DIFFRACTION	1.6	2021-09-29	high	seen_all	1	0.979	close_homolog
+7du7		91	bbe32f70bd77	1	7DU7	X-RAY DIFFRACTION	1.201	2021-09-29	high	seen_all	1	0.934	close_homolog
+7dvc		87	f52733756876	1	7DVC	X-RAY DIFFRACTION	1.705	2021-09-29	high	seen_all	1	0.795	close_homolog
+7dvh		91	3f4dd64d4e64	1	7DVH	X-RAY DIFFRACTION	1.698	2021-09-29	high	seen_all	1	0.893	close_homolog
+7dvr	Q8E4J9	153	112aeb8559c9	1	7DVR	X-RAY DIFFRACTION	1.7	2021-09-29	high	seen_all	1	0.305	remote_homolog
+7dww		88	22c60fd0386a	1	7DWW	X-RAY DIFFRACTION	1.802	2021-09-29	high	seen_all	1	0.619	close_homolog
+7dxr		48	b40f0de23505	1	7DXR	X-RAY DIFFRACTION	1.6	2021-09-29	high	seen_all	1	0.979	close_homolog
+7dxs		49	a29a924ecd90	1	7DXS	X-RAY DIFFRACTION	2.102	2021-09-29	mid	seen_all	1	0.918	close_homolog
+7dxu		48	2f6205b2cdb0	1	7DXU	X-RAY DIFFRACTION	2.314	2021-09-29	mid	seen_all	1	0.979	close_homolog
+7dxv		48	3d9283233b10	1	7DXV	X-RAY DIFFRACTION	2.301	2021-09-29	mid	seen_all	1	0.937	close_homolog
+7qbj	P0ADG7	507	c00fed1c8be7	1	7QBJ	X-RAY DIFFRACTION	2.27	2023-05-31	mid	held_af3_seen_boltz2	0	0.789	close_homolog
+7w33	P07711	333	e0048967f4bd	1	7W33	X-RAY DIFFRACTION	2.39	2023-05-31	mid	held_af3_seen_boltz2	1	0.974	close_homolog
+7xgw	Q586Y0	133	dce829ef0499	1	7XGW	X-RAY DIFFRACTION	2.25	2023-05-31	mid	held_af3_seen_boltz2	0	0.0	orphan
+7xlz	F7YRY1	266	d48f1bd62862	1	7XLZ	X-RAY DIFFRACTION	1.19	2023-05-31	high	held_af3_seen_boltz2	0	0.397	remote_homolog
+7xmj	A9QSE8	312	2e22fb1c45e0	1	7XMJ	X-RAY DIFFRACTION	2.41066763497	2023-05-31	mid	held_af3_seen_boltz2	0	0.429	close_homolog
+7xvu	A0A2P1GNP4	404	7d551cf38586	1	7XVU	X-RAY DIFFRACTION	1.6	2023-05-31	high	held_af3_seen_boltz2	0	0.478	close_homolog
+7xvx	P14174	114	9689a986df49	1	7XVX	X-RAY DIFFRACTION	1.6	2023-05-31	high	held_af3_seen_boltz2	1	0.0	orphan
+7xwd	F4KCC2	70	c9462f2a42f0	1	7XWD	X-RAY DIFFRACTION	2.396	2023-05-31	mid	held_af3_seen_boltz2	1	0.485	close_homolog
+7xwe	F4KCC2	76	de111e5f1c71	1	7XWE	X-RAY DIFFRACTION	1.598	2023-05-31	high	held_af3_seen_boltz2	1	0.486	close_homolog
+7xwf	F4KCC2	76	fb9883e3911a	1	7XWF	X-RAY DIFFRACTION	1.451	2023-05-31	high	held_af3_seen_boltz2	1	0.486	close_homolog
+7xwg	F4KCC2	76	1dd3fdc09f13	1	7XWG	X-RAY DIFFRACTION	1.832	2023-05-31	high	held_af3_seen_boltz2	1	0.486	close_homolog
+7xwu	G8B6C8	377	907317d530c6	1	7XWU	X-RAY DIFFRACTION	2.0	2023-05-31	high	held_af3_seen_boltz2	0	0.483	close_homolog
+7xx0	A0A125SZC1	512	4ec1850234e2	1	7XX0	X-RAY DIFFRACTION	2.199	2023-05-31	mid	held_af3_seen_boltz2	0	0.652	close_homolog
+7xxc	A0A125SZC1	512	aa6c0105600d	1	7XXC	X-RAY DIFFRACTION	1.989	2023-05-31	high	held_af3_seen_boltz2	0	0.652	close_homolog
+7xxp	A0A125SZC1	508	54d6cd9c757e	1	7XXP	X-RAY DIFFRACTION	2.052	2023-05-31	mid	held_af3_seen_boltz2	0	0.524	close_homolog
+7xxr	A0A125SZC1	512	2db3fa4b04de	1	7XXR	X-RAY DIFFRACTION	2.4	2023-05-31	mid	held_af3_seen_boltz2	0	0.652	close_homolog
+7xyl	A0A125SZC1	512	f89254701d29	1	7XYL	X-RAY DIFFRACTION	2.099	2023-05-31	mid	held_af3_seen_boltz2	0	0.652	close_homolog
+7xz3	D1CHV0	325	45356b1e461c	1	7XZ3	X-RAY DIFFRACTION	1.889	2023-05-31	high	held_af3_seen_boltz2	0	0.291	remote_homolog
+7y10	Q8GXC6	299	0fa4b558e839	1	7Y10	X-RAY DIFFRACTION	2.1	2023-05-31	mid	held_af3_seen_boltz2	0	0.403	close_homolog
+7yia	P0DUD5	500	8c44f5d87764	1	7YIA	X-RAY DIFFRACTION	2.428	2023-05-31	mid	held_af3_seen_boltz2	0	0.0	orphan
+7yib	P0DUD5	500	35d595fbecf3	1	7YIB	X-RAY DIFFRACTION	2.18	2023-05-31	mid	held_af3_seen_boltz2	0	0.0	orphan
+7ylf	E5L3Q3	176	0d23f335ba57	1	7YLF	X-RAY DIFFRACTION	1.9	2023-05-31	high	held_af3_seen_boltz2	0	0.503	close_homolog
+7ypu	G9MBU1	206	91e9d826e29e	1	7YPU	X-RAY DIFFRACTION	2.357	2023-05-31	mid	held_af3_seen_boltz2	0	0.961	close_homolog
+7zv1	O91464	136	d1bb0376cd20	1	7ZV1	X-RAY DIFFRACTION	1.74	2023-05-31	high	held_af3_seen_boltz2	0	0.0	orphan
+7zwb	P00918	260	12be6bbff2f6	1	7ZWB	X-RAY DIFFRACTION	1.48	2023-05-31	high	held_af3_seen_boltz2	1	0.0	orphan
+7zwe	P68400	327	2735358fd0b1	1	7ZWE	X-RAY DIFFRACTION	1.47	2023-05-31	high	held_af3_seen_boltz2	1	0.0	orphan
+7zwg	P68400	328	8d12c6083b82	1	7ZWG	X-RAY DIFFRACTION	1.31	2023-05-31	high	held_af3_seen_boltz2	1	0.0	orphan
+7zxa	P07711	220	6705658ac82e	1	7ZXA	X-RAY DIFFRACTION	1.6	2023-05-31	high	held_af3_seen_boltz2	1	0.0	orphan
+8a53	Q9FYE1	348	1b34fa373121	1	8A53	X-RAY DIFFRACTION	1.95	2023-05-31	high	held_af3_seen_boltz2	1	0.958	close_homolog
+8a6u	M1JS91	346	188791333b35	1	8A6U	X-RAY DIFFRACTION	1.65	2023-05-31	high	held_af3_seen_boltz2	0	0.486	close_homolog
+10pi	P23458	297	cd42448eb8c4	1	10PI	X-RAY DIFFRACTION	1.54	2026-06-10	high	held_all	1	0.0	orphan
+10pj	O60674	316	3343aeaa363c	1	10PJ	X-RAY DIFFRACTION	1.59	2026-06-10	high	held_all	0	0.971	close_homolog
+11ap	O70348	358	22543e4ed030	1	11AP	X-RAY DIFFRACTION	1.8	2026-06-10	high	held_all	1	0.292	remote_homolog
+11uc	P68400	335	1326b909968f	1	11UC	X-RAY DIFFRACTION	1.962	2026-06-10	high	held_all	1	0.0	orphan
+13ld	P10724	388	d710d6878adc	1	13LD	X-RAY DIFFRACTION	1.9	2026-06-10	high	held_all	1	0.958	close_homolog
+13lv	Q99640	293	94883c8effe8	1	13LV	X-RAY DIFFRACTION	2.22	2026-06-10	mid	held_all	1	0.342	remote_homolog
+20zq	A0A0E0G1W2	454	e69e341073d6	1	20ZQ	X-RAY DIFFRACTION	1.9	2026-06-10	high	held_all	0	0.853	close_homolog
+21ho	P02794	182	20d4588ee1ca	1	21HO	X-RAY DIFFRACTION	2.4	2026-06-10	mid	held_all	0	0.912	close_homolog
+24jd	Q9Y9V7	251	6dbc82fcf64f	1	24JD	X-RAY DIFFRACTION	2.17	2026-06-10	mid	held_all	0	0.314	remote_homolog
+24ku	A0A401HB34	263	1a0e1d34b6e7	1	24KU	X-RAY DIFFRACTION	1.6	2026-06-10	high	held_all	1	0.367	remote_homolog
+25yr	Q1LWJ6	216	34dcfc51d510	1	25YR	X-RAY DIFFRACTION	1.65	2026-06-10	high	held_all	0	0.0	orphan
+28jy	P02794	182	e8263198f8e2	1	28JY	X-RAY DIFFRACTION	1.6	2026-06-10	high	held_all	1	0.0	orphan
+28jz	P02794	182	12f96e84a2c9	1	28JZ	X-RAY DIFFRACTION	2.41	2026-06-10	mid	held_all	1	0.978	close_homolog
+28ka	P02794	182	aead15b118cc	1	28KA	X-RAY DIFFRACTION	2.11	2026-06-10	mid	held_all	1	0.0	orphan
+36ad	P07954	510	26e931eb0b74	1	36AD	X-RAY DIFFRACTION	2.11	2026-06-10	mid	held_all	1	0.663	close_homolog
+9ktp	A0A411KUQ7	333	a5953e5d2670	1	9KTP	X-RAY DIFFRACTION	2.06	2026-06-10	mid	held_all	0	0.287	remote_homolog
+9lp5	P18031	299	5984f202b023	1	9LP5	X-RAY DIFFRACTION	2.406	2026-06-10	mid	held_all	1	0.0	orphan
+9m0h	Q14249	306	c3050ef0c78d	1	9M0H	X-RAY DIFFRACTION	1.85	2026-06-10	high	held_all	0	0.927	close_homolog
+9nq2	Q9VFU7	122	247540390d1f	1	9NQ2	X-RAY DIFFRACTION	2.4	2026-06-10	mid	held_all	0	0.305	remote_homolog
+9ori	O95994	138	ec793afef4ff	1	9ORI	X-RAY DIFFRACTION	1.74	2026-06-10	high	held_all	1	0.713	close_homolog
+9oz4	A0A381A3N1	314	dd2aed8ff361	1	9OZ4	X-RAY DIFFRACTION	2.01	2026-06-10	mid	held_all	0	0.392	remote_homolog
+9p2p		182	f0288db4694a	1	9P2P	X-RAY DIFFRACTION	1.41	2026-06-10	high	held_all	0	0.439	close_homolog
+9pn1	P50120	133	a8a44a2b68de	1	9PN1	X-RAY DIFFRACTION	1.26	2026-06-10	high	held_all	1	0.977	close_homolog
+9pz4	M2R8M2	496	64af8df8a0d2	1	9PZ4	X-RAY DIFFRACTION	2.25	2026-06-10	mid	held_all	0	0.925	close_homolog
+9r2c	Q5CR27	535	8915587f6112	1	9R2C	X-RAY DIFFRACTION	1.84	2026-06-10	high	held_all	1	0.574	close_homolog
+9r3g	Q5CR27	535	1b4bc0d44cb5	1	9R3G	X-RAY DIFFRACTION	1.9	2026-06-10	high	held_all	1	0.578	close_homolog
+9rd2	G9BY57	267	d80bc24f8873	1	9RD2	X-RAY DIFFRACTION	1.64	2026-06-10	high	held_all	1	0.603	close_homolog
+9ruj	Q8DNS0	309	45bd4a32db97	1	9RUJ	X-RAY DIFFRACTION	1.6	2026-06-10	high	held_all	0	0.471	close_homolog
+9ruk	Q8DNS0	309	10a658c6625f	1	9RUK	X-RAY DIFFRACTION	1.88	2026-06-10	high	held_all	0	0.471	close_homolog
+9s3w	F9VPE5	144	de9cdfc63a25	1	9S3W	X-RAY DIFFRACTION	1.44	2026-06-10	high	held_all	1	0.613	close_homolog
+A0PK11	A0PK11	232	3c398a05d088	0					na	no_self_structure	0	0.0	orphan
+A1A519	A1A519	330	a721c894ec17	0					na	no_self_structure	0	0.0	orphan
+A2RU14	A2RU14	115	ddf6400bc011	0					na	no_self_structure	0	0.0	orphan
+A5PLL7	A5PLL7	270	73b482803617	0					na	no_self_structure	0	0.0	orphan
+A6NCS4	A6NCS4	301	637b1d6a0d50	0					na	no_self_structure	0	0.883	close_homolog
+A6NER3	A6NER3	117	c65f482872ec	0					na	no_self_structure	0	0.0	orphan
+A6NFY7	A6NFY7	115	3fa30a68968f	0					na	no_self_structure	0	0.0	orphan
+A6NI61	A6NI61	221	de08ea029d97	0					na	no_self_structure	0	0.0	orphan
+A6NNB3	A6NNB3	132	9a9cb6ea0507	0					na	no_self_structure	0	0.0	orphan
+A8MQ03	A8MQ03	144	c699457c251d	0					na	no_self_structure	0	0.0	orphan
+A8MW99	A8MW99	385	4c077f44321a	0					na	no_self_structure	0	0.0	orphan
+A9UHW6	A9UHW6	222	7d526b75a582	0					na	no_self_structure	0	0.747	close_homolog
+B2RUY7	B2RUY7	222	f49a810336eb	0					na	no_self_structure	0	0.0	orphan
+B6A8C7	B6A8C7	271	7436b6ab72ad	0					na	no_self_structure	0	0.381	remote_homolog
+B7U540	B7U540	433	2cca9574b398	0					na	no_self_structure	0	0.889	close_homolog
+C9JLW8	C9JLW8	97	8993aa72a844	0					na	no_self_structure	0	0.0	orphan
+C9JRZ8	C9JRZ8	316	1182f79d9533	0					na	no_self_structure	0	0.917	close_homolog
+O00115	O00115	360	add67a185f60	0					na	no_self_structure	0	0.276	remote_homolog
+O00165	O00165	279	5d1c843d881e	0					na	no_self_structure	0	0.0	orphan
+O00254	O00254	374	21a43d25905c	0					na	no_self_structure	0	0.383	remote_homolog
+O00322	O00322	258	fd6f41cc5a10	0					na	no_self_structure	0	0.0	orphan
+O00453	O00453	97	6ffb1837b827	0					na	no_self_structure	0	0.0	orphan
+O00624	O00624	439	3cb711d1fe1f	0					na	no_self_structure	0	0.248	remote_homolog
+O00635	O00635	465	661e17ffabff	0					na	no_self_structure	0	0.512	close_homolog
+O14503	O14503	412	259ad9d58a36	0					na	no_self_structure	0	0.0	orphan
+O14524	O14524	444	1a0435c53f82	0					na	no_self_structure	0	0.0	orphan
+O14548	O14548	114	a891f1c125d2	0					na	no_self_structure	0	0.607	close_homolog
+O14613	O14613	210	f68043abeffd	0					na	no_self_structure	0	0.0	orphan
+O14657	O14657	336	7e7752bc748a	0					na	no_self_structure	0	0.697	close_homolog
+O14756	O14756	317	0dc3a57a5871	0					na	no_self_structure	0	0.375	remote_homolog

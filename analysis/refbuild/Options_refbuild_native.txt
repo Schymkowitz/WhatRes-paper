@@ -1,0 +1,17 @@
+<TITLE>AGADIR_optionfile;
+<Temperature>298.;
+<pH>7.0;
+<IonStrength>0.05;
+<TfeConc>0.;
+<StabEn>0.;
+<surface_pdb_dir>.;
+<cavity_grid_spacing>1.0;
+<cavity_probe_radius>1.4;
+<cavity_min_volume>10.0;
+<surface_burial_radius>10.0;
+<surface_burial_threshold>20;
+<surface_adj_cutoff>5.0;
+<surface_min_patch_size>3;
+<surface_hphob_set>ILVFWM;
+<prefix>analysis/refbuild/native49_;
+<END>

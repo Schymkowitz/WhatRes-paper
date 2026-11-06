@@ -1,0 +1,12 @@
+# Versions of the run that produced the paper's numbers (native_pipeline/numbers.tsv)
+numpy==2.4.3
+pandas==3.0.1
+scikit-learn==1.8.0
+scipy
+matplotlib
+gemmi
+joblib==1.5.3
+openpyxl
+python-docx
+pymupdf
+# the WhatRes tool, as an editable install of its checkout:  pip install -e ../WhatRes

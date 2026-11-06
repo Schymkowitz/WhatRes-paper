@@ -1,0 +1,283 @@
+key	value	unit	description	source	updated
+appres_ai_max	3.544233333333334	A	highest apparent resolution, AF3 + Boltz2	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_ai_min	1.7263666666666688	A	lowest apparent resolution, AF3 + Boltz2	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_ai_p05	1.8803616666666674	A	5th percentile apparent resolution, AF3 + Boltz2	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_ai_p95	3.121965833333332	A	95th percentile apparent resolution, AF3 + Boltz2	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_cv_mae	0.4626734326824257	A	grouped-CV MAE, MMseqs2 clusters, selection inside folds	code/build_apparent_resolution.py	2026-11-06 15:50
+appres_cv_mae_cryoem	0.516041783100466	A	grouped-CV MAE, cryoem	paper_figures/ms_extra.py	2026-11-06 15:54
+appres_cv_mae_selection_on_all	0.45543013018156936	A	grouped-CV MAE with selection on all training data (earlier method)	code/build_apparent_resolution.py	2026-11-06 15:50
+appres_cv_mae_xray	0.4060260946327686	A	grouped-CV MAE, xray	paper_figures/ms_extra.py	2026-11-06 15:54
+appres_cv_nsel_max	69		most descriptors selected in a fold	code/build_apparent_resolution.py	2026-11-06 15:50
+appres_cv_nsel_min	39		fewest descriptors selected in a fold	code/build_apparent_resolution.py	2026-11-06 15:50
+appres_cv_r2	0.6211887150212113		grouped-CV R2, selection inside folds	code/build_apparent_resolution.py	2026-11-06 15:50
+appres_cv_r2_cryoem	0.41212411228865664		grouped-CV R2, cryoem	paper_figures/ms_extra.py	2026-11-06 15:54
+appres_cv_r2_xray	0.7133941650099926		grouped-CV R2, xray	paper_figures/ms_extra.py	2026-11-06 15:54
+appres_cv_slope_cryoem	0.33772650005732513		grouped-CV slope of apparent vs deposited, cryoem	paper_figures/ms_extra.py	2026-11-06 15:54
+appres_cv_slope_xray	0.5729748989351005		grouped-CV slope of apparent vs deposited, xray	paper_figures/ms_extra.py	2026-11-06 15:54
+appres_cv_spearman	0.7855403915259974		grouped-CV Spearman, selection inside folds	code/build_apparent_resolution.py	2026-11-06 15:50
+appres_cv_spearman_cryoem	0.6774529059500144		grouped-CV Spearman, cryoem	paper_figures/ms_extra.py	2026-11-06 15:54
+appres_cv_spearman_xray	0.8662084747569391		grouped-CV Spearman, xray	paper_figures/ms_extra.py	2026-11-06 15:54
+appres_family_n_Cα_chirality	1		apparent-resolution descriptors in family 'Cα chirality'	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_family_n_Ramachandran	1		apparent-resolution descriptors in family 'Ramachandran'	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_family_n_atom-type_distance	34		apparent-resolution descriptors in family 'atom-type distance'	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_family_n_bond_angle	2		apparent-resolution descriptors in family 'bond angle'	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_family_n_bond_length	11		apparent-resolution descriptors in family 'bond length'	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_family_n_clashscore	4		apparent-resolution descriptors in family 'clashscore'	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_family_n_psi	1		apparent-resolution descriptors in family 'psi'	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_family_n_rotamer_outlier	4		apparent-resolution descriptors in family 'rotamer outlier'	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_insample_mae	0.00010277492293714358	A	deployed model on its own training structures (memorised)	code/build_apparent_resolution.py	2026-11-06 15:50
+appres_mean_AlphaFold3	2.363898055555557	A	mean apparent resolution, AlphaFold3	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_mean_Boltz2	2.5469469444444455	A	mean apparent resolution, Boltz2	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_median_AlphaFold3	2.3210833333333367	A	median apparent resolution, AlphaFold3	paper_figures/ms_fig3.py	2026-11-06 15:50
+appres_median_Boltz2	2.488083333333333	A	median apparent resolution, Boltz2	paper_figures/ms_fig3.py	2026-11-06 15:50
+case_7dg7_appres	2.307950000000002	A	AF3 7dg7 apparent resolution	paper_figures/ms_fig4.py	2026-11-06 15:50
+case_7dg7_n_longsc	19		Lys/Arg side chains compared, 7dg7	paper_figures/ms_fig4.py	2026-11-06 15:50
+case_7dg7_n_wrong	9		AF3 7dg7 Lys/Arg side chains with chi3 or chi4 >40 deg from deposited	paper_figures/ms_fig4.py	2026-11-06 15:50
+case_7dg7_plddt	96.21793464992358		AF3 7dg7 mean CA pLDDT	paper_figures/ms_fig4.py	2026-11-06 15:50
+case_7dg7_realism	6.724564335312111		AF3 7dg7 realism	paper_figures/ms_fig4.py	2026-11-06 15:50
+case_7dg7_wrong_list	R11,R23,K29,R32,R34,R54,K60,K72,R90		the differing side chains	paper_figures/ms_fig4.py	2026-11-06 15:50
+cohend_resid_qc_chi3_mean_score	1.9887690483845677		Cohen's d, residualised qc_chi3_mean_score, AF3+Boltz2 minus X-ray+cryo-EM (Table S3 definition)	paper_figures/ms_tables.py	2026-11-06 15:50
+cohend_resid_qc_chi4_mean_score	1.71979914571433		Cohen's d, residualised qc_chi4_mean_score, AF3+Boltz2 minus X-ray+cryo-EM (Table S3 definition)	paper_figures/ms_tables.py	2026-11-06 15:50
+cohend_resid_qc_psi_mean_score	-0.45101808043989994		Cohen's d, residualised qc_psi_mean_score, AF3+Boltz2 minus X-ray+cryo-EM (Table S3 definition)	paper_figures/ms_tables.py	2026-11-06 15:50
+fig2_lda_cv_pct	92.09789018756254	%	LDA 5-fold cross-validated accuracy, method of origin	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_n_AlphaFold2	223		AlphaFold2 structures in the method-of-origin dataset	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_n_AlphaFold3	120		AlphaFold3 structures in the method-of-origin dataset	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_n_Boltz2	120		Boltz2 structures in the method-of-origin dataset	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_n_NMR	95		NMR structures in the method-of-origin dataset	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_n_X-ray	472		X-ray structures in the method-of-origin dataset	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_n_cryo-EM	501		cryo-EM structures in the method-of-origin dataset	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_n_features	512		size-invariant geometry-only descriptors used for method of origin	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_n_structures	1531		structures in the method-of-origin dataset	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_pct_AlphaFold2_called_experimental	0.4484304932735426	%	% of AlphaFold2 models classified as an experimental method (X-ray, cryo-EM or NMR)	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_pct_AlphaFold3_called_experimental	1.6666666666666667	%	% of AlphaFold3 models classified as an experimental method (X-ray, cryo-EM or NMR)	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_pct_Boltz2_called_experimental	1.6666666666666667	%	% of Boltz2 models classified as an experimental method (X-ray, cryo-EM or NMR)	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_pct_af2_called_af3	0.8968609865470852	%	% of AlphaFold2 classified as AlphaFold3	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_pct_af3_called_af2	10.0	%	% of AlphaFold3 classified as AlphaFold2	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_pct_cryoem_called_xray	5.389221556886228	%	% of cryo-EM classified as X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_pct_xray_called_cryoem	9.745762711864407	%	% of X-ray classified as cryo-EM	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2_rf_oob_pct	92.2273024167211	%	random-forest out-of-bag accuracy, method of origin	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2e_sd_ratio_max_>2.5A X-ray	0.9158072366708383		>2.5A X-ray: largest within-type SD ratio to <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2e_sd_ratio_max_AF3	0.9087285844230907		AF3: largest within-type SD ratio to <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2e_sd_ratio_max_Boltz2	0.9363394746729514		Boltz2: largest within-type SD ratio to <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2e_sd_ratio_max_cryo-EM	0.7177537319709423		cryo-EM: largest within-type SD ratio to <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2e_sd_ratio_min_>2.5A X-ray	0.5794757646382757		>2.5A X-ray: smallest within-type SD ratio to <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2e_sd_ratio_min_AF3	0.37533705089567376		AF3: smallest within-type SD ratio to <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2e_sd_ratio_min_Boltz2	0.3001334882751244		Boltz2: smallest within-type SD ratio to <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2e_sd_ratio_min_cryo-EM	0.3409037088833137		cryo-EM: smallest within-type SD ratio to <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2f_max_angle_offset_AF3	1.759041360302641	deg	AF3 largest backbone-angle offset vs <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2f_max_angle_offset_AF3_param	angle_C_N_CA		backbone angle with the largest AF3 offset	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2f_mean_abs_angle_offset_AF3	0.7713514135654644	deg	AF3 mean |offset| of 5 backbone angles vs <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig2f_mean_abs_angle_offset_Boltz2	0.2245240611102247	deg	Boltz2 mean |offset| of 5 backbone angles vs <1 A X-ray	paper_figures/ms_fig2.py	2026-11-06 15:50
+fig3_ext_mae	0.43750791180285364	A	independent set MAE	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_mae_cryoem	0.4193270663033602	A	independent set MAE, cryoem	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_mae_excl_no_cluster	0.4342601562500002	A	independent set MAE excluding unclustered	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_mae_xray	0.4540236798679876	A	independent set MAE, xray	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_n	771		independent set size	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_n_cryoem	367		independent set cryo-EM	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_n_no_cluster	3		independent-set structures without an MMseqs2 cluster	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_n_xray	404		independent set X-ray	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_r2	0.6098190717218233		independent set R2	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_res_max	4.98	A	independent set highest deposited resolution	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_res_min	0.83	A	independent set lowest deposited resolution	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_slope	0.5409796621821604		independent set slope	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_spearman	0.8025877323729788		independent set Spearman	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_spearman_cryoem	0.6909563159937968		independent set Spearman, cryoem	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_ext_spearman_xray	0.8217202582187754		independent set Spearman, xray	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_n_train	973		training structures (X-ray + cryo-EM with deposited resolution)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_n_train_cryoem	501		training cryo-EM structures	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_n_train_xray	472		training X-ray structures	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_train_mae	0.4626734326824257	A	training grouped-CV (MMseqs2) MAE	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_train_mae_cryoem	0.516041783100466	A	training grouped-CV MAE, cryoem only	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_train_mae_xray	0.4060260946327686	A	training grouped-CV MAE, xray only	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_train_n_no_cluster	18		training structures without an MMseqs2 cluster (singletons)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_train_r2	0.6211887150212113		training grouped-CV R2	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_train_r2_cryoem	0.41212411228865664		training grouped-CV R2, cryoem only	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_train_r2_xray	0.7133941650099926		training grouped-CV R2, xray only	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_train_slope	0.5278763937485497		training OOF slope of apparent vs deposited	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3_train_spearman	0.7855403915259974		training grouped-CV Spearman	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3b_spearman_dist_Calif-Calif_mid	-0.5178238280296563		Spearman of aliphatic–aliphatic distance with deposited resolution (training)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3b_spearman_qc_bond_C_O_sd_pctile	-0.46359936860152295		Spearman of C=O bond-length spread with deposited resolution (training)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3b_spearman_qc_rotamer_outlier_mean_pctile	0.44440464877779157		Spearman of rotamer-outlier level with deposited resolution (training)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3e_median_AF3	2.3210833333333367	A	median apparent resolution, AF3 (deployed model)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3e_median_Boltz2	2.488083333333333	A	median apparent resolution, Boltz2 (deployed model)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3e_median_NMR	3.0388666666666664	A	median apparent resolution, NMR (deployed model)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3e_median_X-ray >2.5Å	2.8894333333333297	A	median apparent resolution, X-ray >2.5Å (deployed model)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3e_median_X-ray ≤2Å	1.7186583333333334	A	median apparent resolution, X-ray ≤2Å (deployed model)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3e_median_cryo-EM	3.0410333333333353	A	median apparent resolution, cryo-EM (deployed model)	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3e_median_cryoem_res_ge_3.5	3.4228083333333323	A	median apparent resolution (out-of-fold), cryo-EM deposited >= 3.5 A (the paper's '~3.9 A')	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3e_median_xray_res_le_1.5	1.64095	A	median apparent resolution (out-of-fold), X-ray deposited <= 1.5 A (the paper's '~1.2 A')	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3e_oof_bin_medians_cryoem	1.5:2.58;2.0:2.81;2.5:3.06;3.0:3.11;3.5:3.27;4.0:3.54		out-of-fold median per deposited-resolution bin, cryoem	paper_figures/ms_extra.py	2026-11-06 15:54
+fig3e_oof_bin_medians_xray	0.5:1.59;1.0:1.67;1.5:1.88;2.0:2.34;2.5:2.72;3.0:2.92;3.5:3.00		out-of-fold median per deposited-resolution bin, xray	paper_figures/ms_extra.py	2026-11-06 15:54
+fig3e_oof_monotonic_cryoem	True		out-of-fold median rises monotonically across bins, cryoem	paper_figures/ms_extra.py	2026-11-06 15:54
+fig3e_oof_monotonic_xray	True		out-of-fold median rises monotonically across bins, xray	paper_figures/ms_extra.py	2026-11-06 15:54
+fig3f_n_models	463		predicted models with pLDDT	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3f_spearman_plddt_appres	-0.6368340734263872		Spearman pLDDT vs apparent resolution, all predicted models	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3f_spearman_plddt_appres_AlphaFold2	-0.8117197915404192		Spearman pLDDT vs apparent resolution, AlphaFold2	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3f_spearman_plddt_appres_AlphaFold3	-0.4853600944510035		Spearman pLDDT vs apparent resolution, AlphaFold3	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig3f_spearman_plddt_appres_Boltz2	-0.6037016459476351		Spearman pLDDT vs apparent resolution, Boltz2	paper_figures/ms_fig3.py	2026-11-06 15:50
+fig4a_cohend_chi3_AF3_vs_exp	3.475553375053364		Cohen's d (AF3 minus X-ray+cryo-EM), chi3 surprise	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_cohend_chi3_AI_vs_exp	2.0038314807283375		Cohen's d (AF3+Boltz2 minus X-ray+cryo-EM), chi3 surprise	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_cohend_chi4_AF3_vs_exp	1.730141986723892		Cohen's d (AF3 minus X-ray+cryo-EM), chi4 surprise	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_cohend_chi4_AI_vs_exp	1.724546731047899		Cohen's d (AF3+Boltz2 minus X-ray+cryo-EM), chi4 surprise	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_cohend_psi_AF3_vs_exp	-0.40173131625802955		Cohen's d (AF3 minus X-ray+cryo-EM), psi surprise	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_cohend_psi_AI_vs_exp	-0.37102492514418		Cohen's d (AF3+Boltz2 minus X-ray+cryo-EM), psi surprise	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_chi3_AlphaFold3	0.678841106533975		median chi3 surprise, AlphaFold3	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_chi3_Boltz2	0.39297349709114415		median chi3 surprise, Boltz2	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_chi3_experimental	0.2834573304157549		median chi3 surprise, X-ray + cryo-EM	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_chi4_AlphaFold3	0.2720982334384857		median chi4 surprise, AlphaFold3	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_chi4_Boltz2	0.2940217391304347		median chi4 surprise, Boltz2	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_chi4_experimental	0.1525165562913907		median chi4 surprise, X-ray + cryo-EM	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_co_AF3	1.2303128401604218	A	median per-structure mean C=O length, AF3 (coordinates)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_co_Boltz2	1.2329320272763868	A	median per-structure mean C=O length, Boltz2 (coordinates)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_co_X-ray >2.5Å	1.2355549420817238	A	median per-structure mean C=O length, X-ray >2.5Å (coordinates)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_co_X-ray ≤2Å	1.2353169452266275	A	median per-structure mean C=O length, X-ray ≤2Å (coordinates)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_co_cryo-EM	1.235249105668886	A	median per-structure mean C=O length, cryo-EM (coordinates)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_co_sd_AF3	0.00386921176289505	A	median within-structure SD of C=O length, AF3	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_co_sd_xray_le2	0.0073560342782373	A	median within-structure SD of C=O length, X-ray <= 2 A	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_psi_AlphaFold3	1.370357124610433		median psi surprise, AlphaFold3	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_psi_Boltz2	1.3464791666666667		median psi surprise, Boltz2	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_median_psi_experimental	1.456574074074074		median psi surprise, X-ray + cryo-EM	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4a_n_without_co	0		structures without a computed C=O length (no file found)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4b_spearman_appres_qc_bond_C_O_sd_pctile	-0.5408780633126883		Spearman of C=O bond-length spread with apparent resolution (experimental)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4b_spearman_appres_qc_ca_chirality_mean_score	-0.5674186339044965		Spearman of Cα-chirality surprise with apparent resolution (experimental)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4b_spearman_appres_qc_chi3_mean_score	-0.11180772913855498		Spearman of χ3 rotamer surprise with apparent resolution (experimental)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4b_spearman_appres_qc_chi4_mean_score	0.02829740279123525		Spearman of χ4 rotamer surprise with apparent resolution (experimental)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4c_top5	qc_bond_C_N_sd_pctile;qc_chi3_frac_extreme;qc_angle_C_N_CA_sd_pctile;qc_bond_C_N_mean_score;qc_clashscore_sd_pctile		five strongest realism contributors (|logistic weight|)	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4e_spearman_realism_appres_exp	0.09171115038103671		Spearman realism vs apparent resolution, X-ray + cryo-EM	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4f_spearman_plddt_appres_AlphaFold3	-0.4853600944510035		Spearman pLDDT vs appres, AlphaFold3	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4f_spearman_plddt_appres_Boltz2	-0.6037016459476351		Spearman pLDDT vs appres, Boltz2	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4f_spearman_plddt_realism_AlphaFold3	0.037898465171192434		Spearman pLDDT vs realism, AlphaFold3	paper_figures/ms_fig4.py	2026-11-06 15:50
+fig4f_spearman_plddt_realism_Boltz2	0.30951454962150143		Spearman pLDDT vs realism, Boltz2	paper_figures/ms_fig4.py	2026-11-06 15:50
+mp_molprobity_mae	0.7035516225088211	A	MolProbity score, linear calibration, grouped-CV MAE on the shared structures	paper_figures/ms_misc.py	2026-11-06 15:50
+mp_molprobity_mae_insample	0.6960690206009055	A	MolProbity score, linear calibration fitted on all shared structures	paper_figures/ms_misc.py	2026-11-06 15:50
+mp_n_common	973		structures scored by both WhatRes and MolProbity	paper_figures/ms_misc.py	2026-11-06 15:50
+mp_whatres_mae	0.4626734326824257	A	WhatRes grouped-CV MAE on the shared structures	paper_figures/ms_misc.py	2026-11-06 15:50
+n_appres_features	58		resolution-scaling descriptors in the deployed apparent-resolution model	paper_figures/ms_fig3.py	2026-11-06 15:50
+n_benchmark_AlphaFold2	223		distinct AlphaFold2 structures in the benchmark	paper_figures/ms_extra.py	2026-11-06 15:54
+n_benchmark_NMR	95		distinct NMR structures in the benchmark	paper_figures/ms_extra.py	2026-11-06 15:54
+n_descriptors	623		per-structure descriptors in the feature table (numeric columns)	paper_figures/ms_misc.py	2026-11-06 15:50
+n_descriptors_excl_bfactor	613		per-structure descriptors excluding B-factor/pLDDT	paper_figures/ms_misc.py	2026-11-06 15:50
+n_descriptors_table_s1	623		descriptors listed in Supplementary Table S1	paper_figures/ms_tables.py	2026-11-06 15:50
+n_realism_features	72		geometry descriptors in the realism model	code/build_realism.py	2026-11-06 15:50
+n_shared_features	19		descriptors shared by apparent resolution and realism	paper_figures/ms_misc.py	2026-11-06 15:50
+n_size_invariant_geometry	568		size-invariant geometry descriptors (training)	code/build_apparent_resolution.py	2026-11-06 15:50
+realism_C	0.003		logistic regression regularisation C	code/build_realism.py	2026-11-06 15:50
+realism_cv_auc	0.9953665638917438		realism grouped (MMseqs2/target), nested 5-fold CV AUC, experimental vs AF3/Boltz2	code/build_realism.py	2026-11-06 15:50
+realism_cv_auc_earlier_method	0.9967711545049673		realism CV AUC, ungrouped folds, curves on all data (earlier method)	code/build_realism.py	2026-11-06 15:50
+realism_median_AlphaFold2	56.786736127567615		median realism, AlphaFold2	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_median_AlphaFold3	26.978907846103173		median realism, AlphaFold3	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_median_Boltz2	35.96927750949191		median realism, Boltz2	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_median_NMR	83.15848713237943		median realism, NMR	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_median_X-ray	93.21172214602501		median realism, X-ray	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_median_cryo-EM	93.87497863753566		median realism, cryo-EM	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q1_AlphaFold2	39.12329541372172		realism 25th percentile, AlphaFold2	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q1_AlphaFold3	17.999555624826918		realism 25th percentile, AlphaFold3	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q1_Boltz2	23.05652366338652		realism 25th percentile, Boltz2	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q1_NMR	61.92932557076753		realism 25th percentile, NMR	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q1_X-ray	89.4279613239453		realism 25th percentile, X-ray	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q1_cryo-EM	89.72287326698948		realism 25th percentile, cryo-EM	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q3_AlphaFold2	72.17774188307726		realism 75th percentile, AlphaFold2	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q3_AlphaFold3	36.159640870954796		realism 75th percentile, AlphaFold3	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q3_Boltz2	50.19348846294901		realism 75th percentile, Boltz2	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q3_NMR	92.56602026921644		realism 75th percentile, NMR	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q3_X-ray	96.10092687674867		realism 75th percentile, X-ray	paper_figures/ms_fig4.py	2026-11-06 15:50
+realism_q3_cryo-EM	96.23490593744172		realism 75th percentile, cryo-EM	paper_figures/ms_fig4.py	2026-11-06 15:50
+refdb_n_residues	975112		residues in the reference distributions	paper_figures/ms_misc.py	2026-11-06 15:50
+refdb_n_structures	2000		high-resolution reference structures	paper_figures/ms_misc.py	2026-11-06 15:50
+ridge_axis_n_features	568		size-invariant geometry descriptors used for the resolution axis	paper_figures/ms_misc.py	2026-11-06 15:50
+ridge_axis_spearman_insample	0.9598850449441618		same, fitted and projected on the same structures (earlier method)	paper_figures/ms_misc.py	2026-11-06 15:50
+ridge_axis_spearman_oof	0.71892096083026		Spearman of the ridge resolution-axis projection with deposited resolution, out-of-fold	paper_figures/ms_misc.py	2026-11-06 15:50
+supp1_spearman_realism_deposited	0.044171345186746584		Spearman realism vs deposited resolution, X-ray + cryo-EM	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_median_AlphaFold2	51.39285107883454		median realism, AlphaFold2, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_median_AlphaFold3	29.49238494261312		median realism, AlphaFold3, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_median_Boltz2	42.476938306873265		median realism, Boltz2, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_median_NMR	66.83126296465204		median realism, NMR, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_median_X-ray	92.72025136477748		median realism, X-ray, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_median_cryo-EM	90.34070604082083		median realism, cryo-EM, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_median_experimental	91.74789440091185		median realism, X-ray + cryo-EM, 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_n_AlphaFold2	142		n AlphaFold2 in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_n_AlphaFold3	86		n AlphaFold3 in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_n_Boltz2	75		n Boltz2 in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_n_NMR	14		n NMR in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_n_X-ray	154		n X-ray in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
+supp2_band_n_cryo-EM	77		n cryo-EM in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
+supp3_gap_<1A X-ray	2.8765945183935173	deg	helix minus sheet mean N-CA-C angle, <1A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_gap_>2.5A X-ray	2.206441208610528	deg	helix minus sheet mean N-CA-C angle, >2.5A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_gap_AF3	2.1869808041495276	deg	helix minus sheet mean N-CA-C angle, AF3	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_gap_Boltz2	2.36025916377271	deg	helix minus sheet mean N-CA-C angle, Boltz2	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_gap_cryo-EM	2.2693795855977186	deg	helix minus sheet mean N-CA-C angle, cryo-EM	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_helix_<1A X-ray	3127		helix residues, <1A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_helix_>2.5A X-ray	57133		helix residues, >2.5A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_helix_AF3	12525		helix residues, AF3	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_helix_Boltz2	12999		helix residues, Boltz2	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_helix_cryo-EM	136856		helix residues, cryo-EM	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_sheet_<1A X-ray	2798		sheet residues, <1A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_sheet_>2.5A X-ray	32138		sheet residues, >2.5A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_sheet_AF3	6298		sheet residues, AF3	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_sheet_Boltz2	6979		sheet residues, Boltz2	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_n_sheet_cryo-EM	61658		sheet residues, cryo-EM	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_nres_all	514049		residues after filter step all	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_nres_no_gly_pro	454362		residues after filter step no_gly_pro	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_nres_phi_psi_tau_defined	451461		residues after filter step phi_psi_tau_defined	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_nres_tau_100_122	451436		residues after filter step tau_100_122	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_offset_helix_>2.5A X-ray	-0.38836359744813365	deg	mean N-CA-C offset vs <1 A, helix, >2.5A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_offset_helix_AF3	0.5574943430161028	deg	mean N-CA-C offset vs <1 A, helix, AF3	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_offset_helix_Boltz2	-0.08830836042997703	deg	mean N-CA-C offset vs <1 A, helix, Boltz2	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_offset_helix_cryo-EM	-0.26981585654611706	deg	mean N-CA-C offset vs <1 A, helix, cryo-EM	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_offset_sheet_>2.5A X-ray	0.28178971233485584	deg	mean N-CA-C offset vs <1 A, sheet, >2.5A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_offset_sheet_AF3	1.2471080572600926	deg	mean N-CA-C offset vs <1 A, sheet, AF3	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_offset_sheet_Boltz2	0.4280269941908301	deg	mean N-CA-C offset vs <1 A, sheet, Boltz2	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_offset_sheet_cryo-EM	0.3373990762496817	deg	mean N-CA-C offset vs <1 A, sheet, cryo-EM	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_ref_mean_helix	111.6471343450298	deg	<1 A X-ray mean N-CA-C angle, helix	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_ref_mean_other	110.97290354117494	deg	<1 A X-ray mean N-CA-C angle, other	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp3_ref_mean_sheet	108.77053982663628	deg	<1 A X-ray mean N-CA-C angle, sheet	paper_figures/ms_supp3.py	2026-11-06 15:54
+supp4a_mae_thr0.1	0.47071906474820197	A	grouped-CV MAE, selection threshold 0.1 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:50
+supp4a_mae_thr0.2	0.4600634121274415	A	grouped-CV MAE, selection threshold 0.2 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:50
+supp4a_mae_thr0.3	0.4626734326824257	A	grouped-CV MAE, selection threshold 0.3 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4a_mae_thr0.4	0.5393458147767503	A	grouped-CV MAE, selection threshold 0.4 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4a_mae_thr0.5	nan	A	grouped-CV MAE, selection threshold 0.5 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4a_n_thr0.1	314		descriptors selected at threshold 0.1 (all data)	paper_figures/ms_supp.py	2026-11-06 15:50
+supp4a_n_thr0.2	133		descriptors selected at threshold 0.2 (all data)	paper_figures/ms_supp.py	2026-11-06 15:50
+supp4a_n_thr0.3	58		descriptors selected at threshold 0.3 (all data)	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4a_n_thr0.4	10		descriptors selected at threshold 0.4 (all data)	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4a_n_thr0.5	1		descriptors selected at threshold 0.5 (all data)	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4b_random_max	0.6606095580678318	A	worst random draw MAE	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4b_random_median	0.5926222935936968	A	median random draw MAE	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4b_random_min	0.5439646111682088	A	best random draw MAE	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4b_random_n	58		random draw size	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4b_selected_beats	20		random draws the selected set beats (of 20)	paper_figures/ms_supp.py	2026-11-06 15:51
+supp4b_selected_mae	0.4626734326824257	A	grouped-CV MAE, resolution-selected descriptors (selection inside folds)	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_appres_levene_p	0.13911621600658713		Levene p, apparent resolution	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_appres_median_post	2.5227833333333325		median apparent resolution 1995+	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_appres_median_pre	2.6464666666666656		median apparent resolution pre-1995	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_appres_p	0.5583045801024789		Mann-Whitney p, apparent resolution	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_n_in_training	0		era structures that are also apparent-resolution training structures	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_n_post	65		1995+ structures	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_n_pre	35		pre-1995 structures	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_realism_levene_p	0.09046217783085223		Levene p, realism	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_realism_median_post	96.48115053738219		median realism 1995+	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_realism_median_pre	99.45028611426025		median realism pre-1995	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_realism_p	1.65404837625506e-05		Mann-Whitney p, realism	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_realism_sd_post	12.626799270989777		realism SD 1995+	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_realism_sd_pre	10.199341562630782		realism SD pre-1995	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_spearman_realism_year	-0.4023039963304544		Spearman realism vs deposition year	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_top_effects	qc_angle_CA_C_N_frac_extreme;qc_cb_deviation_mean_score;qc_ca_chirality_frac_extreme;qc_angle_CA_C_N_mean_score;qc_bond_C_N_frac_extreme		descriptors with the strongest era effect	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_year_max	2025		latest deposition year	paper_figures/ms_supp.py	2026-11-06 15:51
+supp5_year_min	1982		earliest deposition year	paper_figures/ms_supp.py	2026-11-06 15:51
+supp6_frac_chi3	0.234446513842972		fraction of residues with chi3 (R,K,Q,E,M), benchmark	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_frac_chi4	0.10540193962827726		fraction of residues with chi4 (R,K), benchmark	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_max_abs_bias	4.592623417715487		largest |mean subset realism - full realism|	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_nres_max	663		largest of the ten structures (residues)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_nres_min	614		smallest of the ten structures (residues)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_sd_N100	4.082597518448745		mean realism SD over subsets of 100 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_sd_N150	3.0532024225386056		mean realism SD over subsets of 150 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_sd_N200	2.3692636633607966		mean realism SD over subsets of 200 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_sd_N30	8.484756136175708		mean realism SD over subsets of 30 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_sd_N300	1.713588240360584		mean realism SD over subsets of 300 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_sd_N400	1.2359337836316098		mean realism SD over subsets of 400 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_sd_N50	6.111241623869013		mean realism SD over subsets of 50 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp6_sd_N500	0.888149115625264		mean realism SD over subsets of 500 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
+val_n_candidates	941		independent-set candidates (val_ids.tsv)	paper_figures/ms_fig3.py	2026-11-06 15:50
+val_n_lacking_descriptors	58		candidates without computed descriptors	paper_figures/ms_fig3.py	2026-11-06 15:50
+val_n_removed_shared_cluster	112		candidates removed for sharing an MMseqs2 cluster with training	paper_figures/ms_fig3.py	2026-11-06 15:50
+val_n_with_descriptors	883		candidates with computed descriptors and a deposited resolution	paper_figures/ms_fig3.py	2026-11-06 15:50

@@ -1,0 +1,5 @@
+__pycache__/
+analysis/molprobity_baseline/top8000/
+analysis/native_pipeline/logs/
+analysis/native_pipeline/figures/
+analysis/native_pipeline/tables/
