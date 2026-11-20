@@ -26,6 +26,7 @@ External programs: MMseqs2 (`mmseqs`), MolProbity `reduce` and `probe` (with `$R
 | 1 | `analysis/data_prep/run_all.sh` | checks the cohort lists against their criteria and re-makes every derived input (resolutions, top models, sequence clusters, MolProbity baseline, backbone geometry), comparing each with the deposited file; `--install` writes them |
 | 2 | `analysis/native_pipeline/rebuild_all.sh` and `rebuild_era.sh` | the feature tables, from the structures; then both models are retrained |
 | 3 | `analysis/native_pipeline/regenerate_all.sh` | every number (`native_pipeline/numbers.tsv`), figure and table |
+| 4 | `analysis/binders/fetch_binder_dataset.py`, `score_binders.py`, `foldx_complexes.py`, then step 3 again | the de novo binder analysis (Supplementary Fig. 7): fetches the Overath et al. 2025 dataset (Zenodo 10.5281/zenodo.15722219, CC BY 4.0, 2.4 GB), scores it with WhatRes and computes FoldX AnalyseComplex energies (FoldX, academic licence from foldxsuite.crg.eu); without it step 3 skips Supplementary Fig. 7 and says so |
 
 Every reported number is written by the script that computes it to `analysis/native_pipeline/numbers.tsv`;
 the copy in this repository is the reference for checking a re-run.

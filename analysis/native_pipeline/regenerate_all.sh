@@ -17,5 +17,7 @@ run paper_figures/ms_table_s2.py
 run paper_figures/ms_supp.py
 run paper_figures/ms_supp3.py
 run paper_figures/ms_extra.py
+if [ -d "${WHATRES_BINDER_DATA:-$HOME/data/binder_meta_2025}/whatres" ]; then run paper_figures/ms_binders.py
+else echo "== SKIPPED paper_figures/ms_binders.py: binder data absent (README, step 4); bind_* numbers not regenerated"; fi
 run paper_figures/compose_figures.py
 echo "== done $(date '+%F %T')"

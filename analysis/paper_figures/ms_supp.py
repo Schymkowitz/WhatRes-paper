@@ -50,6 +50,8 @@ axs[0].set_title("At any apparent resolution, predicted models\nscore far below 
 B = D[(D.appres >= 1.8) & (D.appres <= 2.6)]
 for i, g in enumerate(OG):
     v = B[B.origin == g].realism.values; violin(axs[1], i, v, ST[g][0])
+    axs[1].scatter(np.random.default_rng(i).normal(i, 0.06, len(v)), v, s=5, c="k", alpha=0.3, edgecolors="none", zorder=3)   # every structure shown (groups of 14 to 154)
+    axs[1].text(i, 1, f"n={len(v)}", ha="center", va="bottom", fontsize=6.5)
     rec(f"supp2_band_median_{g}", float(np.median(v)), f"median realism, {g}, apparent resolution 1.8-2.6 A"); rec(f"supp2_band_n_{g}", len(v), f"n {g} in the 1.8-2.6 A band")
 rec("supp2_band_median_experimental", float(B[B.origin.isin(["X-ray", "cryo-EM"])].realism.median()), "median realism, X-ray + cryo-EM, 1.8-2.6 A band")
 axs[1].set_xticks(range(6)); axs[1].set_xticklabels(OG, rotation=20, fontsize=7.5); axs[1].set_ylabel("realism score"); axs[1].set_ylim(0, 102)

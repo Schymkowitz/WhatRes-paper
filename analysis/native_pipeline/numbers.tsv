@@ -30,6 +30,82 @@ appres_mean_AlphaFold3	2.363898055555557	A	mean apparent resolution, AlphaFold3	
 appres_mean_Boltz2	2.5469469444444455	A	mean apparent resolution, Boltz2	paper_figures/ms_fig3.py	2026-11-06 15:50
 appres_median_AlphaFold3	2.3210833333333367	A	median apparent resolution, AlphaFold3	paper_figures/ms_fig3.py	2026-11-06 15:50
 appres_median_Boltz2	2.488083333333333	A	median apparent resolution, Boltz2	paper_figures/ms_fig3.py	2026-11-06 15:50
+bind_auroc_appres_af3	0.507711746328349		mean within-campaign AUROC, app. res., AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_appres_af3_n_above	8		testable campaigns with AUROC > 0.5, app. res., AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_appres_af3_p	0.777111444277861		within-campaign permutation p, app. res., AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_appres_design	0.5139581520625773		mean within-campaign AUROC, app. res., design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_appres_design_n_above	7		testable campaigns with AUROC > 0.5, app. res., design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_appres_design_p	0.591704147926037		within-campaign permutation p, app. res., design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_foldx_af3	0.7024508446389789		mean within-campaign AUROC, FoldX, AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_foldx_af3_n_above	12		testable campaigns with AUROC > 0.5, FoldX, AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_foldx_design	0.5876566926329512		mean within-campaign AUROC, FoldX, design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_foldx_design_n_above	11		testable campaigns with AUROC > 0.5, FoldX, design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_ipsae	0.8008142330801112		mean within-campaign AUROC, AF3 ipSAE	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_ipsae_n_above	13		testable campaigns with AUROC > 0.5, AF3 ipSAE	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_realism_af3	0.5044395998497152		mean within-campaign AUROC, realism, AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_realism_af3_n_above	7		testable campaigns with AUROC > 0.5, realism, AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_realism_af3_p	0.8685657171414293		within-campaign permutation p, realism, AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_realism_design	0.5168459098891769		mean within-campaign AUROC, realism, design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_realism_design_n_above	6		testable campaigns with AUROC > 0.5, realism, design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_realism_design_p	0.5002498750624688		within-campaign permutation p, realism, design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_rosetta_af3	0.72816709822515		mean within-campaign AUROC, Rosetta, AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_rosetta_af3_n_above	13		testable campaigns with AUROC > 0.5, Rosetta, AF3 model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_rosetta_design	0.6581402668041731		mean within-campaign AUROC, Rosetta, design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_auroc_rosetta_design_n_above	13		testable campaigns with AUROC > 0.5, Rosetta, design model	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_cv_ipsae	0.7615492966137788		within-campaign CV AUROC, ipSAE alone	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_cv_ipsae_whatres	0.7610235700288488		within-campaign CV AUROC, ipSAE + realism + apparent resolution (design model)	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_cv_n_improved	6		campaigns where adding WhatRes to ipSAE improved the CV AUROC	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_foldx_failed	137		complexes FoldX AnalyseComplex could not analyse	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_EGFR_good	1.0		FoldX AUROC on good models, Cao et al EGFR | EGFR	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_EGFR_poor	0.5753246753246753		FoldX AUROC on poor models, Cao et al EGFR | EGFR	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_FGFR2_good	0.7011334920708615		FoldX AUROC on good models, Cao et al FGFR2 | FGFR2	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_FGFR2_poor	0.6960988137458726		FoldX AUROC on poor models, Cao et al FGFR2 | FGFR2	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_InsulinR_good	0.5684210526315789		FoldX AUROC on good models, InsulinR Watson et al | InsulinR	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_InsulinR_poor	0.6458885941644562		FoldX AUROC on poor models, InsulinR Watson et al | InsulinR	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_Pdl1_good	0.8085106382978723		FoldX AUROC on good models, Pdl1 Watson et al | Pdl1	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_Pdl1_poor	0.6904761904761905		FoldX AUROC on poor models, Pdl1 Watson et al | Pdl1	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_SARS_CoV2_RBD_good	0.9047619047619048		FoldX AUROC on good models, Cao et al SARS_CoV2_RBD | SARS_CoV2_RBD	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_SARS_CoV2_RBD_poor	0.6708333333333333		FoldX AUROC on poor models, Cao et al SARS_CoV2_RBD | SARS_CoV2_RBD	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_VirB8_good	0.9411764705882353		FoldX AUROC on good models, Cao et al VirB8 | VirB8	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_VirB8_poor	0.34285714285714286		FoldX AUROC on poor models, Cao et al VirB8 | VirB8	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_bind_good_max_small	5		most binders in a good-model group outside the largest campaign, foldx	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_bind_good_min	4		fewest binders in a good-model group, foldx	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_diff	0.21708746807479704		mean AUROC difference good - poor models, foldx energy on AF3 complexes	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_loo_max	0.2759984699963319		leave-one-campaign-out mean difference, maximum (FoldX)	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_loo_min	0.14084109614353793		leave-one-campaign-out mean difference, minimum (FoldX)	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_n_better	5		campaigns where the foldx energy classifies better on good models	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_n_campaigns	6		campaigns testable for good vs poor, foldx	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_foldx_p	0.013986013986013986		permutation p (good/poor shuffled within campaign), foldx	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_rosetta_bind_good_max_small	5		most binders in a good-model group outside the largest campaign, rosetta	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_rosetta_bind_good_min	4		fewest binders in a good-model group, rosetta	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_rosetta_diff	0.21003135882383372		mean AUROC difference good - poor models, rosetta energy on AF3 complexes	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_rosetta_n_better	5		campaigns where the rosetta energy classifies better on good models	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_rosetta_n_campaigns	6		campaigns testable for good vs poor, rosetta	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_gp_rosetta_p	0.011988011988011988		permutation p (good/poor shuffled within campaign), rosetta	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_n_binders	394		experimental binders	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_n_campaigns	20		design campaigns (source x target)	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_n_designs	3669		labelled designs scored by WhatRes (4 structure sets each)	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_n_labelled	3669		designs with an outcome label (unique binder_id)	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_n_rows	3676		rows in the binder meta-analysis table	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_n_targets	15		targets	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_n_testable	13		campaigns with >= 5 binders and >= 5 non-binders	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_n_testable_binders	378		binders in testable campaigns	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_n_testable_designs	3295		designs in testable campaigns	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r10_diff	0.06666619660041923		FoldX good - poor AUROC difference at realism >= 10	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r10_n	6		testable campaigns at realism >= 10	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r10_p	0.3646353646353646		permutation p at realism >= 10	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r15_diff	0.043402590615506616		FoldX good - poor AUROC difference at realism >= 15	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r15_n	7		testable campaigns at realism >= 15	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r15_p	0.5784215784215784		permutation p at realism >= 15	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r20_diff	0.21708746807479704		FoldX good - poor AUROC difference at realism >= 20	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r20_n	6		testable campaigns at realism >= 20	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r20_p	0.013986013986013986		permutation p at realism >= 20	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r25_diff	0.14374687736000952		FoldX good - poor AUROC difference at realism >= 25	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r25_n	5		testable campaigns at realism >= 25	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r25_p	0.06793206793206794		permutation p at realism >= 25	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r30_diff	0.007236614073702241		FoldX good - poor AUROC difference at realism >= 30	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r30_n	2		testable campaigns at realism >= 30	paper_figures/ms_binders.py	2026-11-20 11:16
+bind_sens_foldx_r30_p	0.926073926073926		permutation p at realism >= 30	paper_figures/ms_binders.py	2026-11-20 11:16
 case_7dg7_appres	2.307950000000002	A	AF3 7dg7 apparent resolution	paper_figures/ms_fig4.py	2026-11-06 15:50
 case_7dg7_n_longsc	19		Lys/Arg side chains compared, 7dg7	paper_figures/ms_fig4.py	2026-11-06 15:50
 case_7dg7_n_wrong	9		AF3 7dg7 Lys/Arg side chains with chi3 or chi4 >40 deg from deposited	paper_figures/ms_fig4.py	2026-11-06 15:50
@@ -187,20 +263,20 @@ refdb_n_structures	2000		high-resolution reference structures	paper_figures/ms_m
 ridge_axis_n_features	568		size-invariant geometry descriptors used for the resolution axis	paper_figures/ms_misc.py	2026-11-06 15:50
 ridge_axis_spearman_insample	0.9598850449441618		same, fitted and projected on the same structures (earlier method)	paper_figures/ms_misc.py	2026-11-06 15:50
 ridge_axis_spearman_oof	0.71892096083026		Spearman of the ridge resolution-axis projection with deposited resolution, out-of-fold	paper_figures/ms_misc.py	2026-11-06 15:50
-supp1_spearman_realism_deposited	0.044171345186746584		Spearman realism vs deposited resolution, X-ray + cryo-EM	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_median_AlphaFold2	51.39285107883454		median realism, AlphaFold2, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_median_AlphaFold3	29.49238494261312		median realism, AlphaFold3, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_median_Boltz2	42.476938306873265		median realism, Boltz2, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_median_NMR	66.83126296465204		median realism, NMR, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_median_X-ray	92.72025136477748		median realism, X-ray, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_median_cryo-EM	90.34070604082083		median realism, cryo-EM, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_median_experimental	91.74789440091185		median realism, X-ray + cryo-EM, 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_n_AlphaFold2	142		n AlphaFold2 in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_n_AlphaFold3	86		n AlphaFold3 in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_n_Boltz2	75		n Boltz2 in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_n_NMR	14		n NMR in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_n_X-ray	154		n X-ray in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
-supp2_band_n_cryo-EM	77		n cryo-EM in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-06 15:50
+supp1_spearman_realism_deposited	0.044171345186746584		Spearman realism vs deposited resolution, X-ray + cryo-EM	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_median_AlphaFold2	51.39285107883454		median realism, AlphaFold2, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_median_AlphaFold3	29.49238494261312		median realism, AlphaFold3, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_median_Boltz2	42.476938306873265		median realism, Boltz2, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_median_NMR	66.83126296465204		median realism, NMR, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_median_X-ray	92.72025136477748		median realism, X-ray, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_median_cryo-EM	90.34070604082083		median realism, cryo-EM, apparent resolution 1.8-2.6 A	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_median_experimental	91.74789440091185		median realism, X-ray + cryo-EM, 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_n_AlphaFold2	142		n AlphaFold2 in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_n_AlphaFold3	86		n AlphaFold3 in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_n_Boltz2	75		n Boltz2 in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_n_NMR	14		n NMR in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_n_X-ray	154		n X-ray in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-20 11:23
+supp2_band_n_cryo-EM	77		n cryo-EM in the 1.8-2.6 A band	paper_figures/ms_supp.py	2026-11-20 11:23
 supp3_gap_<1A X-ray	2.8765945183935173	deg	helix minus sheet mean N-CA-C angle, <1A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
 supp3_gap_>2.5A X-ray	2.206441208610528	deg	helix minus sheet mean N-CA-C angle, >2.5A X-ray	paper_figures/ms_supp3.py	2026-11-06 15:54
 supp3_gap_AF3	2.1869808041495276	deg	helix minus sheet mean N-CA-C angle, AF3	paper_figures/ms_supp3.py	2026-11-06 15:54
@@ -231,52 +307,52 @@ supp3_offset_sheet_cryo-EM	0.3373990762496817	deg	mean N-CA-C offset vs <1 A, sh
 supp3_ref_mean_helix	111.6471343450298	deg	<1 A X-ray mean N-CA-C angle, helix	paper_figures/ms_supp3.py	2026-11-06 15:54
 supp3_ref_mean_other	110.97290354117494	deg	<1 A X-ray mean N-CA-C angle, other	paper_figures/ms_supp3.py	2026-11-06 15:54
 supp3_ref_mean_sheet	108.77053982663628	deg	<1 A X-ray mean N-CA-C angle, sheet	paper_figures/ms_supp3.py	2026-11-06 15:54
-supp4a_mae_thr0.1	0.47071906474820197	A	grouped-CV MAE, selection threshold 0.1 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:50
-supp4a_mae_thr0.2	0.4600634121274415	A	grouped-CV MAE, selection threshold 0.2 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:50
-supp4a_mae_thr0.3	0.4626734326824257	A	grouped-CV MAE, selection threshold 0.3 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4a_mae_thr0.4	0.5393458147767503	A	grouped-CV MAE, selection threshold 0.4 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4a_mae_thr0.5	nan	A	grouped-CV MAE, selection threshold 0.5 (inside folds)	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4a_n_thr0.1	314		descriptors selected at threshold 0.1 (all data)	paper_figures/ms_supp.py	2026-11-06 15:50
-supp4a_n_thr0.2	133		descriptors selected at threshold 0.2 (all data)	paper_figures/ms_supp.py	2026-11-06 15:50
-supp4a_n_thr0.3	58		descriptors selected at threshold 0.3 (all data)	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4a_n_thr0.4	10		descriptors selected at threshold 0.4 (all data)	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4a_n_thr0.5	1		descriptors selected at threshold 0.5 (all data)	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4b_random_max	0.6606095580678318	A	worst random draw MAE	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4b_random_median	0.5926222935936968	A	median random draw MAE	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4b_random_min	0.5439646111682088	A	best random draw MAE	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4b_random_n	58		random draw size	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4b_selected_beats	20		random draws the selected set beats (of 20)	paper_figures/ms_supp.py	2026-11-06 15:51
-supp4b_selected_mae	0.4626734326824257	A	grouped-CV MAE, resolution-selected descriptors (selection inside folds)	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_appres_levene_p	0.13911621600658713		Levene p, apparent resolution	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_appres_median_post	2.5227833333333325		median apparent resolution 1995+	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_appres_median_pre	2.6464666666666656		median apparent resolution pre-1995	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_appres_p	0.5583045801024789		Mann-Whitney p, apparent resolution	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_n_in_training	0		era structures that are also apparent-resolution training structures	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_n_post	65		1995+ structures	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_n_pre	35		pre-1995 structures	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_realism_levene_p	0.09046217783085223		Levene p, realism	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_realism_median_post	96.48115053738219		median realism 1995+	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_realism_median_pre	99.45028611426025		median realism pre-1995	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_realism_p	1.65404837625506e-05		Mann-Whitney p, realism	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_realism_sd_post	12.626799270989777		realism SD 1995+	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_realism_sd_pre	10.199341562630782		realism SD pre-1995	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_spearman_realism_year	-0.4023039963304544		Spearman realism vs deposition year	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_top_effects	qc_angle_CA_C_N_frac_extreme;qc_cb_deviation_mean_score;qc_ca_chirality_frac_extreme;qc_angle_CA_C_N_mean_score;qc_bond_C_N_frac_extreme		descriptors with the strongest era effect	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_year_max	2025		latest deposition year	paper_figures/ms_supp.py	2026-11-06 15:51
-supp5_year_min	1982		earliest deposition year	paper_figures/ms_supp.py	2026-11-06 15:51
-supp6_frac_chi3	0.234446513842972		fraction of residues with chi3 (R,K,Q,E,M), benchmark	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_frac_chi4	0.10540193962827726		fraction of residues with chi4 (R,K), benchmark	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_max_abs_bias	4.592623417715487		largest |mean subset realism - full realism|	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_nres_max	663		largest of the ten structures (residues)	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_nres_min	614		smallest of the ten structures (residues)	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_sd_N100	4.082597518448745		mean realism SD over subsets of 100 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_sd_N150	3.0532024225386056		mean realism SD over subsets of 150 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_sd_N200	2.3692636633607966		mean realism SD over subsets of 200 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_sd_N30	8.484756136175708		mean realism SD over subsets of 30 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_sd_N300	1.713588240360584		mean realism SD over subsets of 300 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_sd_N400	1.2359337836316098		mean realism SD over subsets of 400 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_sd_N50	6.111241623869013		mean realism SD over subsets of 50 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
-supp6_sd_N500	0.888149115625264		mean realism SD over subsets of 500 residues (10 structures)	paper_figures/ms_supp.py	2026-11-06 15:54
+supp4a_mae_thr0.1	0.47071906474820197	A	grouped-CV MAE, selection threshold 0.1 (inside folds)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4a_mae_thr0.2	0.4600634121274415	A	grouped-CV MAE, selection threshold 0.2 (inside folds)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4a_mae_thr0.3	0.4626734326824257	A	grouped-CV MAE, selection threshold 0.3 (inside folds)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4a_mae_thr0.4	0.5393458147767503	A	grouped-CV MAE, selection threshold 0.4 (inside folds)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4a_mae_thr0.5	nan	A	grouped-CV MAE, selection threshold 0.5 (inside folds)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4a_n_thr0.1	314		descriptors selected at threshold 0.1 (all data)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4a_n_thr0.2	133		descriptors selected at threshold 0.2 (all data)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4a_n_thr0.3	58		descriptors selected at threshold 0.3 (all data)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4a_n_thr0.4	10		descriptors selected at threshold 0.4 (all data)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4a_n_thr0.5	1		descriptors selected at threshold 0.5 (all data)	paper_figures/ms_supp.py	2026-11-20 11:23
+supp4b_random_max	0.6606095580678318	A	worst random draw MAE	paper_figures/ms_supp.py	2026-11-20 11:24
+supp4b_random_median	0.5926222935936968	A	median random draw MAE	paper_figures/ms_supp.py	2026-11-20 11:24
+supp4b_random_min	0.5439646111682088	A	best random draw MAE	paper_figures/ms_supp.py	2026-11-20 11:24
+supp4b_random_n	58		random draw size	paper_figures/ms_supp.py	2026-11-20 11:24
+supp4b_selected_beats	20		random draws the selected set beats (of 20)	paper_figures/ms_supp.py	2026-11-20 11:24
+supp4b_selected_mae	0.4626734326824257	A	grouped-CV MAE, resolution-selected descriptors (selection inside folds)	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_appres_levene_p	0.13911621600658713		Levene p, apparent resolution	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_appres_median_post	2.5227833333333325		median apparent resolution 1995+	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_appres_median_pre	2.6464666666666656		median apparent resolution pre-1995	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_appres_p	0.5583045801024789		Mann-Whitney p, apparent resolution	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_n_in_training	0		era structures that are also apparent-resolution training structures	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_n_post	65		1995+ structures	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_n_pre	35		pre-1995 structures	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_realism_levene_p	0.09046217783085223		Levene p, realism	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_realism_median_post	96.48115053738219		median realism 1995+	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_realism_median_pre	99.45028611426025		median realism pre-1995	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_realism_p	1.65404837625506e-05		Mann-Whitney p, realism	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_realism_sd_post	12.626799270989777		realism SD 1995+	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_realism_sd_pre	10.199341562630782		realism SD pre-1995	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_spearman_realism_year	-0.4023039963304544		Spearman realism vs deposition year	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_top_effects	qc_angle_CA_C_N_frac_extreme;qc_cb_deviation_mean_score;qc_ca_chirality_frac_extreme;qc_angle_CA_C_N_mean_score;qc_bond_C_N_frac_extreme		descriptors with the strongest era effect	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_year_max	2025		latest deposition year	paper_figures/ms_supp.py	2026-11-20 11:24
+supp5_year_min	1982		earliest deposition year	paper_figures/ms_supp.py	2026-11-20 11:24
+supp6_frac_chi3	0.234446513842972		fraction of residues with chi3 (R,K,Q,E,M), benchmark	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_frac_chi4	0.10540193962827726		fraction of residues with chi4 (R,K), benchmark	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_max_abs_bias	4.592623417715487		largest |mean subset realism - full realism|	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_nres_max	663		largest of the ten structures (residues)	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_nres_min	614		smallest of the ten structures (residues)	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_sd_N100	4.082597518448745		mean realism SD over subsets of 100 residues (10 structures)	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_sd_N150	3.0532024225386056		mean realism SD over subsets of 150 residues (10 structures)	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_sd_N200	2.3692636633607966		mean realism SD over subsets of 200 residues (10 structures)	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_sd_N30	8.484756136175708		mean realism SD over subsets of 30 residues (10 structures)	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_sd_N300	1.713588240360584		mean realism SD over subsets of 300 residues (10 structures)	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_sd_N400	1.2359337836316098		mean realism SD over subsets of 400 residues (10 structures)	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_sd_N50	6.111241623869013		mean realism SD over subsets of 50 residues (10 structures)	paper_figures/ms_supp.py	2026-11-20 11:27
+supp6_sd_N500	0.888149115625264		mean realism SD over subsets of 500 residues (10 structures)	paper_figures/ms_supp.py	2026-11-20 11:27
 val_n_candidates	941		independent-set candidates (val_ids.tsv)	paper_figures/ms_fig3.py	2026-11-06 15:50
 val_n_lacking_descriptors	58		candidates without computed descriptors	paper_figures/ms_fig3.py	2026-11-06 15:50
 val_n_removed_shared_cluster	112		candidates removed for sharing an MMseqs2 cluster with training	paper_figures/ms_fig3.py	2026-11-06 15:50

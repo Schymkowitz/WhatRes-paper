@@ -40,7 +40,13 @@ def legend_html(p):
 def main(ms, out):
     d = docx.Document(ms)
     legends = {}
-    for p in d.paragraphs:
+    from docx.oxml.ns import qn
+    from docx.text.run import Run
+    def accepted_runs(p):          # tracked insertions included, tracked deletions excluded (python-docx's p.runs skips both)
+        return [Run(r, p) for r in p._p.iter(qn("w:r")) if not any(a.tag in (qn("w:del"), qn("w:moveFrom")) for a in r.iterancestors())]
+    class _P:
+        def __init__(s, p): s.runs = accepted_runs(p); s.text = "".join(r.text for r in s.runs)
+    for p in (_P(x) for x in d.paragraphs):
         m = re.match(r"Supplementary Figure (\d+)\.", p.text.strip())
         if m:
             n = int(m.group(1))
